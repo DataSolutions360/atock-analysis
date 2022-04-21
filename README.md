@@ -1,5 +1,5 @@
 # stock-analysis
-VBA Code using Wall Street Data
+**VBA Code using Wall Street Data
 
 Overview of Project
 
