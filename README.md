@@ -16,10 +16,10 @@ Several tasks for this project included but are not limited to:
       - Uploading completed .XLSM file to Github, as well as 2017 and 2018 PNG files
       - Prepare and convert the VBA_Challenge file 
 In this instance, we are analyzing the following to obtain a performance evaluation of given stocks:
-      - stock prices
-      - ticker symbols
-      - volume
-      - intraday pricing 
+      *stock prices
+      *ticker symbols
+      *volume
+      *intraday pricing 
 
 **Results**
       
