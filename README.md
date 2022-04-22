@@ -30,6 +30,27 @@ In this instance, we are analyzing the following to obtain a performance evaluat
             tickerStartPrices As Single,
             tickerEndPrices As Single
    
+**TickerIndex is used to access the above referenced arrays, tickers, tickerVolumes, tickerStartPrices, and tickerEndPrices**
+
+   *Activate data worksheet and creates ticker index*
+   
+      Worksheets(yearValue).Activate
+      tickerVolume = 0
+      
+   *Loop over all rows in the spreadsheet*   
+   
+      For i = 2 to RowCOunt
+      
+   *Checks if the current row is the first row with the selected tickerIndex*
+   
+      If Cells(i, 1).Value = tickers(tickerIndex) And Cells(i - 1, 1).Value <> tickers(tickerIndex) Then
+            tickerStartPrices(tickerIndex) = Cells(i, 6).Value
+      
+         End If
+         
+    *If the row's ticker doesn't match, increase the tickerIndex*
+    
+    
 
 
 
