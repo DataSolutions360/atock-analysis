@@ -65,8 +65,7 @@ In this instance, we are analyzing the following to obtain a performance evaluat
       Cells(4 + i, 1).Value = tickers(i)
       Cells(4 + i, 2).Value = tickerVolumes(i)
       Cells(4 + i, 3).Value = tickerEndPrices(i) / tickerStartPrices(i) - 1
-        
-        
+         
       Next i
 
 **Summary**
