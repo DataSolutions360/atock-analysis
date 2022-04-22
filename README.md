@@ -48,9 +48,14 @@ In this instance, we are analyzing the following to obtain a performance evaluat
       
          End If
          
-    *If the row's ticker doesn't match, increase the tickerIndex*
+     
+         
+   *If the row's ticker doesn't match, increase the tickerIndex*
     
-    
+      If Cells(i, 1).Value = tickers(tickerIndex) And Cells(i + 1, 1).Value <> tickers(tickerIndex) Then
+                tickerIndex = tickerIndex + 1
+        
+        End If
 
 
 
