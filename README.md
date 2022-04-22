@@ -24,8 +24,9 @@ In this instance, we are analyzing the following to obtain a performance evaluat
 **Results**
       
 **Arrays created for tickers, tickerVolumes, tickerStartPrices, and TickerEndPrices**
+      
       VBA Code:
-            Dim tickerVolumes As Long
+            Dim tickerVolumes As Long,
             tickerStartPrices As Single,
             tickerEndPrices As Single
    
