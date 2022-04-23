@@ -112,13 +112,42 @@
     
             The organizational aspect of Refactoring lends itself to modular, forward-including, script building.  
        This means that it is easier to differentiate the WORKING SYNTAX from the ACCURATE RESULTS, rather than ensuring that 
-       the syntax properly works.
+       the syntax properly works.  Complexity and length of processes tend to work best when "chunking" into sub-processes.
+       This produces potential redundancy, inefficiency, and duplication.
        
  ***Disadvantages of Refactoring Code:***
     
-       Process can be quite laborious and can "run correctly in pieces" and once combined, "not run at all"
-       This can be due to nesting, hierarchical conflict of syntax, and all around wrong results.
+            Process can be quite laborious and can "run correctly in pieces" and once combined, "not run at all"
+       This can be due to nesting, hierarchical conflict of syntax, and all around wrong results.  Errors in logic
+       tend to happen when they are included in a loop or referenced in a sub-process.  The error may sometimes not
+       appear when isolated from referential code within the refactored code.
 
-    
+ **The 2017 and 2018 outputs of Stock Analysis in the VBA_CHALLENGE.XLSM workbook match the outputs from the AllStockAnalysis in the module**
+ 
+ ![VBA ANALYSIS 2017](https://user-images.githubusercontent.com/8845050/164816926-06e06090-0572-4d84-b5ff-24c826ce543a.PNG)
+
+      Both of these analyses were ran pre and post- code creation to see the difference in results, if any.  
+ The results were identical in both cases, which conveys the code refactoring is robust.
+
+ ![VBA ANALYSIS 2018](https://user-images.githubusercontent.com/8845050/164816950-21251f3d-8e1c-4ba4-a2b0-655eae5b6179.PNG)
+
+      Findings:
+      
+ The 2017 returns were much better than that of 2018.  As expected, 2017 yielded positive returns for all stock tickers but "TERP".
+ 
+ 2018, however, was a much different result, as all but "ENPH" and "RUN" were negative performance.  
+ 
+ **Final thoughts...**
+ 
+       As you may see below, the code produces the results you desire...but at what cost?
+ The fact that these codes ran 20+ seconds each tells me that the code is not as efficient as it could be in my case, 
+ albeit accurate in results.
+ 
+
+ ![image](https://user-images.githubusercontent.com/8845050/164833550-6e1fff72-a750-49d4-a502-4d32ce1079d8.png)
+           
+![image](https://user-images.githubusercontent.com/8845050/164836151-382b814d-d961-49d5-9e72-de3caaacf3f6.png)
+           
+
 
 
